@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First project</title>
+	<style>
+		body {
+		    margin: 0;
+		    background-image: url(pattern.jpg);
+		    background-size: 50%;
+		    background-repeat: repeat-y;
+		    background-color: #4682B4;
+		    font-family: arial;
+		}
+		.mytheme {
+		    border: 1px solid;
+		}
+		.mytheme1
+		{
+			color:black;
+			font-weight:bold;
+		}
+		.mytheme:hover {
+		    background: #4682B4;
+		    color: white;
+		    border: 1px solid;
+		}
+		form {
+		    width: 275px;
+		    margin: 0 auto;
+		}
+		.backtheme {
+		    background: url(edumat-services.jpg);
+		    background-repeat: no-repeat;
+		    width: 100%;
+		    height: 600px;
+		}
+		.form-div,
+		.video-div{
+			width: 50%;
+			float: left;
+		}
+		video {
+		    width: 100%;
+		    height: auto;
+		}
+		.form-div {
+		    padding-top: 10%;
+		}
+	</style>
+</head>
+<body>
+	<h1 align="center">EDUMAT SERVICES</h1>
+	<table width="100%" border="0">
+		<tr align="center" bgcolor="white">
+			<td class="mytheme">HOME</td>
+			<td class="mytheme">ABOUT</td>
+			<td class="mytheme">CONTACT</td>
+			<td class="mytheme">SERVICES</td>
+			<td class="mytheme">SOLUTION</td>
+		</tr>
+	</table>
+	<br><br>
+	<div class="backtheme">
+		<form action="LogicCode.jsp" style="padding-top: 16%;">
+			<table border="1" cellpadding="0" cellspacing="10">
+				<tr align="center">
+					<td colspan="2" class="mytheme1">USER SIGN IN</td>
+				</tr>
+				<tr>
+					<td>ID</td>
+					<td><input type="text" name="UserId"></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="pasword" name="pwd"></td>
+				</tr>
+				<tr align="center">
+					<td colspan="2"><input type="submit" value="LOgin"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div class="form-div">
+		<form>
+			<table border="1" cellpadding="0" cellspacing="10">
+				<tr>
+					<td>Name</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td><input type="radio" name="gender" value="male" checked> Male
+						<input type="radio" name="gender" value="female"> Female
+					</td>
+				</tr>
+				<tr>
+					<td>City</td>
+					<td>
+						<select>
+							<option value="indore">Indore</option>
+							<option value="pune">pune</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div class="video-div">
+		<video src="IIS2018_NEW.mp4" controls></video>
+	</div>
+</body>
+</html>

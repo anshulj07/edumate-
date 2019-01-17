@@ -1,0 +1,21 @@
+.styleheader
+{
+	background-color: #eee;
+	width: 100%;
+	float: left;
+	height:100px;
+
+}
+body{
+	background-color: #4682B4;
+	 font-family: arial;
+	 font-size:18px;
+
+}
+.logo
+{
+	font-size:30px;
+	width: 30%;
+	float: left;
+	padding: 0; 
+}
